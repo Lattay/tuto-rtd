@@ -22,3 +22,4 @@ help:
 page: html
 	rm -rf ../docs/*
 	cp -r ../public/html/* ../docs/
+	touch ../docs/.nojekyll
